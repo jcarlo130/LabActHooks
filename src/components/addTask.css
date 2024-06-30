@@ -1,0 +1,50 @@
+.container {
+  height: 2rem;
+  width: 50vw;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+#taskText {
+  outline: none;
+  border: none;
+  margin: 1rem;
+  background-color: transparent;
+  font-size: 14px;
+  color: #575757;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px #ccc inset;
+  padding: 1rem;
+  width: 30%;
+  background: #e4e4e4;
+}
+
+#taskBtn {
+    background-color: #111111;
+    color: #e4e4e4;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    width: 7.5rem;
+    font-size: 16px;
+    transition: all;
+    transition-duration: 0.3s;
+}
+
+#taskBtn:hover {
+    cursor: pointer;
+    background-color: #ffee8b;
+    color: #111111;
+    font-style: italic;
+    box-shadow: 5px 5px #111111;
+    transform: translateY(-0.2rem);
+  }
